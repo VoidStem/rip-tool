@@ -6,6 +6,7 @@
 OUTDIR="/storage/emulated/0/Download/RIP"
 mkdir -p "$OUTDIR"
 
+clear
 echo "===================="
 echo " RIP TOOL "
 echo "===================="
