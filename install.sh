@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 
+#Made by Void Stem
+
 echo "===================="
 echo " RIP INSTALLER "
 echo "===================="
 
 echo "[*] Updating packages..."
-pkg update -y && pkg upgrade -y
+pkg update -y
 
 echo "[*] Installing dependencies..."
 pkg install -y python ffmpeg
