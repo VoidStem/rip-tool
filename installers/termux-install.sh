@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-
 #Made by Void Stem
+set -e
 
 echo "===================="
 echo " RIP INSTALLER "
@@ -21,9 +21,9 @@ mkdir -p $PREFIX/bin/
 echo "[*] Downloading RIP script from GitHub..."
 curl -L -o rip.sh https://raw.githubusercontent.com/VoidStem/rip-tool/refs/heads/main/termux-rip.sh
 
-echo "[*] Moving rip.sh to $PREFIX/bin/rip..."
+echo "[*] Installing RIP to $PREFIX/bin/rip..."
 chmod +x rip.sh
 mv rip.sh $PREFIX/bin/rip
 
 echo "[+] Installation complete!"
-echo "To run rip type: rip"
+echo "To run RIP type: rip"
