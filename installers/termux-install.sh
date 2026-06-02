@@ -19,7 +19,7 @@ echo "[*] Setting up termux storage..."
 termux-setup-storage
 mkdir -p $PREFIX/bin/
 echo "[*] Downloading RIP script from GitHub..."
-curl -L -o rip.sh https://raw.githubusercontent.com/VoidStem/rip-tool/main/rip.sh
+curl -L -o rip.sh https://raw.githubusercontent.com/VoidStem/rip-tool/refs/heads/main/termux-rip.sh
 
 echo "[*] Moving rip.sh to $PREFIX/bin/rip..."
 chmod +x rip.sh
