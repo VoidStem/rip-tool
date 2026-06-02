@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 #Made By Void Stem
 
 #Download/RIP
@@ -7,9 +6,11 @@ OUTDIR="/storage/emulated/0/Download/RIP"
 mkdir -p "$OUTDIR"
 
 clear
+
 echo "===================="
 echo " RIP TOOL "
 echo "===================="
+echo
 
 echo "Enter video URL:"
 read URL
@@ -19,6 +20,7 @@ if [ -z "$URL" ]; then
   exit 1
 fi
 
+echo
 echo "Downloading and merging audio + video..."
 
 yt-dlp \
@@ -29,6 +31,6 @@ yt-dlp \
   -o "$OUTDIR/%(title)s.%(ext)s" \
   "$URL"
 
-echo ""
+echo 
 echo "Done!"
 echo "Saved to: Download/RIP"
