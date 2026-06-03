@@ -13,7 +13,7 @@ echo "[*] Installing dependencies..."
 sudo pacman -S --needed --noconfirm python ffmpeg yt-dlp curl
 
 echo "[*] Downloading rip.sh script from GitHub..."
-curl -L -o https://raw.githubusercontent.com/VoidStem/rip-tool/refs/heads/main/rip.sh
+curl -L -o rip.sh https://raw.githubusercontent.com/VoidStem/rip-tool/refs/heads/main/rip.sh
 
 echo "[*] Installing RIP to /usr/local/bin/rip..."
 chmod +x rip.sh
