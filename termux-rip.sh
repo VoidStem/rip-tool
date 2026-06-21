@@ -52,7 +52,7 @@ echo "Mode: Audio + Video"
 yt-dlp \
 -f "bv*+ba/b" \
 --merge-output-format mp4 \
-$COMMON_OPTS \
+$OUTPUT \
 "$SOURCE"
 fi
 
