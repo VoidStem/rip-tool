@@ -1,6 +1,7 @@
 # Rip-Tool
 Rip-Tool is a free and lightweight Linux/Termux tool that lets users download high-quality videos from websites.
 
+![Rip-Tool](screenshot.png)
 ---
 
 ## Features
