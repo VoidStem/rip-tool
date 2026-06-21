@@ -1,6 +1,10 @@
 # Rip-Tool
 Rip-Tool is a free and lightweight Linux/Termux tool that lets users download high-quality videos from websites.
 
+![GitHub stars](https://img.shields.io/github/stars/VoidStem/rip-tool?style=social)
+![GitHub forks](https://img.shields.io/github/forks/VoidStem/rip-tool?style=social)
+![License](https://img.shields.io/github/license/VoidStem/rip-tool)
+
 ![Rip-Tool](screenshot.png)
 ---
 
@@ -53,4 +57,4 @@ sudo mv rip.sh /usr/local/bin/rip
 ```bash
 #For Arch     curl -fsSL https://raw.githubusercontent.com/VoidStem/rip-tool/refs/heads/main/installers/arch-install.sh | bash
 #For Termux   curl -fsSL https://raw.githubusercontent.com/VoidStem/rip-tool/refs/heads/main/installers/termux-install.sh | bash
-
+```
